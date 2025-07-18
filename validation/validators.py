@@ -12,7 +12,7 @@ logging.basicConfig(
         logging.StreamHandler(),
         # Writes to a log file which rotates every 1mb, or gets overwritten when the app is restarted
         logging.handlers.RotatingFileHandler(
-            filename="backend.log",
+            filename="validation.log",
             mode='w',
             maxBytes=1024 * 1024,
             backupCount=3
