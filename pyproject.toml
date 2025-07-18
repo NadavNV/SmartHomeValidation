@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "SmartHomeValidation"
+version = "1.0.0"
+description = "Validation utilities for smart home device data."
+authors = ["Nadav Nevo <nadav.nevo@gmail.com>"]
+readme = "README.md"
+packages = [{ include = "validation" }]  # This tells Poetry what folder to package
+
+[tool.poetry.dependencies]
+python = "^3.8"                          # Compatible Python versions
+
+[tool.poetry.dev-dependencies]
+pytest = "^8.0"                          # Example test runner (optional)
+# Add other dev dependencies here if needed
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
