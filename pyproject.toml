@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "SmartHomeValidation"
-version = "1.0.3"
+version = "1.0.4"
 description = "Validation utilities for smart home device data."
 authors = ["Nadav Nevo <nadav.nevo@gmail.com>"]
 readme = "README.md"
